@@ -73,3 +73,18 @@ def plot_stress_level_class_balance(class_counts, LABEL_TO_STRESS_LEVEL):
     plt.xlabel("Class")
     plt.ylabel("Count")
     plt.show()
+
+def plot_confusion_matrix(confusion_matrix, class_names):
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(
+        confusion_matrix,
+        annot=True,
+        fmt='d',
+        cmap='Blues',
+        xticklabels=class_names,
+        yticklabels=class_names
+    )
+    plt.ylabel('Actual')
+    plt.xlabel('Predicted')
+    plt.title('Confusion Matrix')
+    plt.show()
