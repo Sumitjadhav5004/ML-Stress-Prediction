@@ -14,10 +14,15 @@ The project includes:
 ## 📂 Repository Structure
 .
 ├── stress_prediction.ipynb # Main notebook with EDA + ML pipeline
+
 ├── utils.py # Visualization helpers (commented & documented)
+
 ├── header.html # Custom header used in notebook
+
 ├── Sleep_Health_and_Lifestyle_Dataset.png
+
 ├── README.md # Documentation (this file)
+
 └── .gitignore
 
 
