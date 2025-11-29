@@ -1,58 +1,77 @@
-## 📌 Project Description
+# 🧠 Stress Prediction Using Machine Learning
 
-The goal of this project is to predict **stress levels** based on sleep, activity, and lifestyle features using classical Machine Learning algorithms.
+This repository is a forked and improved version of the original project  
 
-The project includes:
-- Data loading and preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Visualization utilities  
-- Model training and evaluation  
-- Confusion matrix and other metric visualizations  
+This enhanced version adds:
+- Full README documentation  
+- Commented and documented `utils.py`  
+- `requirements.txt`  
+- Cleaner project explanation  
+- No changes to original ML logic  
+
+---
+
+## 📌 Project Overview
+
+The goal is to predict **stress levels** based on sleep, health, and lifestyle attributes using Machine Learning.
+
+The workflow includes:
+- Data preprocessing  
+- Exploratory Data Analysis  
+- Feature engineering  
+- Training ML models  
+- Evaluating performance using metrics and visuals  
 
 ---
 
 ## 📂 Repository Structure
-.
-├── stress_prediction.ipynb # Main notebook with EDA + ML pipeline
 
-├── utils.py # Visualization helpers (commented & documented)
-
-├── header.html # Custom header used in notebook
-
+```
+ML-Stress-Prediction/
+│
+├── stress_prediction.ipynb       # Main ML notebook
+├── utils.py                      # Helper functions (commented)
+├── header.html                   # Notebook header
 ├── Sleep_Health_and_Lifestyle_Dataset.png
-
-├── README.md # Documentation (this file)
-
-└── .gitignore
-
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
+```
 
 ---
 
-## 🛠 Installation
+## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/sowinskipatryk/ML-Stress-Prediction
 cd ML-Stress-Prediction
+```
 
 Install required libraries:
 
-pip install  numpy matplotlib seaborn scikit-learn xgboost optuna plotly shap kagglehub
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-## ▶️ **Usage**
+## ▶️ Usage
 
 Run the Jupyter Notebook:
+
+```bash
 jupyter notebook stress_prediction.ipynb
+```
 
+Make sure the dataset is placed in the same folder or update the path inside the notebook.
 
-Make sure the dataset is placed in the same folder or update the path inside the note
 ---
 
- ##👨‍💻 **Modified By**
+## 👨‍💻 Modified By
 
 This improved documentation + commented utilities version was prepared by:
-Sumit Nana Jadhav
 
+**Sumit Nana Jadhav**
+
+---
