@@ -40,6 +40,8 @@ Install required libraries:
 
 pip install  numpy matplotlib seaborn scikit-learn xgboost optuna plotly shap kagglehub
 
+---
+
  ▶️ **Usage**
 
 **Run the Jupyter Notebook:
@@ -48,6 +50,7 @@ jupyter notebook stress_prediction.ipynb
 
 
 Make sure the dataset is placed in the same folder or update the path inside the note
+---
 
 **👨‍💻 Modified By
 
