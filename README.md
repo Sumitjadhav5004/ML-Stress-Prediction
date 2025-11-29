@@ -42,18 +42,17 @@ pip install  numpy matplotlib seaborn scikit-learn xgboost optuna plotly shap ka
 
 ---
 
- ▶️ **Usage**
+## ▶️ **Usage**
 
-**Run the Jupyter Notebook:
-**
+Run the Jupyter Notebook:
 jupyter notebook stress_prediction.ipynb
 
 
 Make sure the dataset is placed in the same folder or update the path inside the note
 ---
 
-**👨‍💻 Modified By
+ ##👨‍💻 **Modified By**
 
 This improved documentation + commented utilities version was prepared by:
-Sumit Nana Jadhav**
+Sumit Nana Jadhav
 
